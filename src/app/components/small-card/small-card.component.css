@@ -1,0 +1,13 @@
+.small-card__container {
+    border: 2px solid white;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.small-card__title {
+    font-size: 12px;
+}
+
+.small-card__subtitle {
+    color: gray;
+}
