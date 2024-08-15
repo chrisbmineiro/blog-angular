@@ -1,4 +1,20 @@
 .big-card__container {
-    border: 2px solid #FFFFFF;
     padding: 10px;
+}
+.big-card__title {
+    margin-top: 8px;
+}
+
+.big-card__title > h1 > a{
+    color: #FFFFFF;
+}
+.big-card__description {
+    margin-top: 15px;
+}
+.big-card__description > p > a{
+    color: grey;
+}
+
+a {
+    text-decoration: none;
 }

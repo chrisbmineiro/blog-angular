@@ -1,8 +1,18 @@
 .small-card__container {
-    border: 2px solid white;
     padding: 10px;
+}
+.small-card__content {
     display: flex;
-    gap: 10px;
+    flex-direction: row;
+}
+.small-card__photo > img {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+.small-card__article {
+    display: flex;
+    flex-direction: column;
 }
 .small-card__title {
     font-size: 12px;
@@ -10,4 +20,7 @@
 
 .small-card__subtitle {
     color: gray;
+}
+.small-card__separator {
+    margin-top: 10px;
 }
